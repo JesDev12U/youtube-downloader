@@ -7,8 +7,10 @@ try:
             if contenido:
                 # Comando a ejecutar
                 command = [
-                    "./yt-dlp",
+                    "yt-dlp",
                     "-x",
+                    "--embed-metadata",
+                    "--embed-thumbnail",
                     "--audio-format", "mp3",
                     "-o", "out/%(title)s.%(ext)s",
                     contenido
