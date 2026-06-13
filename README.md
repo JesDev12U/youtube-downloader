@@ -30,7 +30,7 @@ Una herramienta de CLI potente y estética para descargar música (MP3) y videos
    ```bash
    python -m venv .venv
    source .venv/bin/activate  # En Linux/macOS
-   pip install yt-dlp rich questionary
+   pip install -r requirements.txt 
    ```
 
 3. **Agregar links:**
